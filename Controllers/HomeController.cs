@@ -21,7 +21,7 @@ namespace PresciptionTextSharp.Controllers
 
         public IActionResult Index()
         {
-            
+
             var doctor = new Doctor
             {
                 Name = "JUSTIN SAYA MD",
@@ -50,7 +50,42 @@ namespace PresciptionTextSharp.Controllers
               new Presciption {SIG=" Progesterone 150mg IR capsule (Hypo-allergenic Formulation, Sensitivity)",
                   Directions = "take one capsule by mouth before bed*medically necessary due to patient sensitivity",
                   Type = "Routine",
-                  DX = "E29.1; SHIP GROUND; SIG WAIVED; *EMP*",
+                  DX = "E29.1; SHIP GROUND; SIG WAIVED; *EMP* (PT EMAIL: LEWIS.EDWARDSJR@GMAIL.COM)(CC: TRACKING@DEFYMEDICAL.COM)",
+                  Pharmacist = "Use this information for uninsured patients.",
+                  ID = "704-370-0006 rxBIN:016151 PCN:BNRX GRP:AMD",
+              },
+              new Presciption {SIG=" Progesterone 150mg IR capsule (Hypo-allergenic Formulation, Sensitivity)",
+                  Directions = "take one capsule by mouth before bed*medically necessary due to patient sensitivity",
+                  Type = "Routine",
+                  DX = "E29.1; SHIP GROUND; SIG WAIVED; *EMP* (PT EMAIL: LEWIS.EDWARDSJR@GMAIL.COM)(CC: TRACKING@DEFYMEDICAL.COM)",
+                  Pharmacist = "Use this information for uninsured patients.",
+                  ID = "704-370-0006 rxBIN:016151 PCN:BNRX GRP:AMD",
+              },
+                            new Presciption {SIG=" Progesterone 150mg IR capsule (Hypo-allergenic Formulation, Sensitivity)",
+                  Directions = "take one capsule by mouth before bed*medically necessary due to patient sensitivity",
+                  Type = "Routine",
+                  DX = "E29.1; SHIP GROUND; SIG WAIVED; *EMP* (PT EMAIL: LEWIS.EDWARDSJR@GMAIL.COM)(CC: TRACKING@DEFYMEDICAL.COM)",
+                  Pharmacist = "Use this information for uninsured patients.",
+                  ID = "704-370-0006 rxBIN:016151 PCN:BNRX GRP:AMD",
+              },
+              new Presciption {SIG=" Progesterone 150mg IR capsule (Hypo-allergenic Formulation, Sensitivity)",
+                  Directions = "take one capsule by mouth before bed*medically necessary due to patient sensitivity",
+                  Type = "Routine",
+                  DX = "E29.1; SHIP GROUND; SIG WAIVED; *EMP* (PT EMAIL: LEWIS.EDWARDSJR@GMAIL.COM)(CC: TRACKING@DEFYMEDICAL.COM)",
+                  Pharmacist = "Use this information for uninsured patients.",
+                  ID = "704-370-0006 rxBIN:016151 PCN:BNRX GRP:AMD",
+              },
+              new Presciption {SIG=" Progesterone 150mg IR capsule (Hypo-allergenic Formulation, Sensitivity)",
+                  Directions = "take one capsule by mouth before bed*medically necessary due to patient sensitivity",
+                  Type = "Routine",
+                  DX = "E29.1; SHIP GROUND; SIG WAIVED; *EMP* (PT EMAIL: LEWIS.EDWARDSJR@GMAIL.COM)(CC: TRACKING@DEFYMEDICAL.COM)",
+                  Pharmacist = "Use this information for uninsured patients.",
+                  ID = "704-370-0006 rxBIN:016151 PCN:BNRX GRP:AMD",
+              },
+              new Presciption {SIG=" Progesterone 150mg IR capsule (Hypo-allergenic Formulation, Sensitivity)",
+                  Directions = "take one capsule by mouth before bed*medically necessary due to patient sensitivity",
+                  Type = "Routine",
+                  DX = "E29.1; SHIP GROUND; SIG WAIVED; *EMP* (PT EMAIL: LEWIS.EDWARDSJR@GMAIL.COM)(CC: TRACKING@DEFYMEDICAL.COM)",
                   Pharmacist = "Use this information for uninsured patients.",
                   ID = "704-370-0006 rxBIN:016151 PCN:BNRX GRP:AMD",
               }
